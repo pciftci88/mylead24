@@ -26,6 +26,7 @@ function MobileHeader() {
     return (
         <Wrapper>
             <MenuIcon id="menuIcon" src={menuIcon} alt="Menu-Icon" onClick={toggleMenu} />
+            <Logo src={logo} alt="MyLead24 Logo" title="MyLead24" />
             <Menu isVisible={visible}>
                 <Navbar>
                     <LinkListHeader>

@@ -51,7 +51,7 @@ export const MenuLink = styled(Link)`
 export const MenuIcon = styled.img`
     max-width: 35px;
     max-height: 35px;
-    margin-left: 10px;
+    margin: 10px;
 
     &:hover {
         cursor: pointer;
