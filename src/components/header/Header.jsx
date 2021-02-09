@@ -1,25 +1,28 @@
 import React from 'react';
-import { Wrapper, Logo, Menu, MenuList, MenuItems, MenuLinks } from './styles';
+import { Link } from 'react-router-dom';
+import { Wrapper, Logo, Menu, MenuList, MenuItems, MenuLink, InnerWrapper } from './styles';
 
 import logo from '../../images/logo.png';
 
 function Header() {
-    return <Wrapper>
-        <React.Fragment>
-            <a href="/">
-                <Logo src={logo} alt="MyLead24 Logo" title="MyLead24" />
-            </a>
-        </React.Fragment>
-        <Menu>
-            <MenuList>
-                <MenuItems><MenuLinks href="/">Finanzen</MenuLinks></MenuItems>
-                <MenuItems><MenuLinks href="/">Versicherungen</MenuLinks></MenuItems>
-                <MenuItems><MenuLinks href="/">DSL</MenuLinks></MenuItems>
-                <MenuItems><MenuLinks href="/">Energie</MenuLinks></MenuItems>
-                <MenuItems><MenuLinks href="/">Reisen</MenuLinks></MenuItems>
-            </MenuList>
-        </Menu>
-    </Wrapper>;
+    return (
+        <Wrapper>
+            <InnerWrapper>
+                <Link to="/">
+                    <Logo src={logo} alt="MyLead24 Logo" title="MyLead24" />
+                </Link>
+                <Menu>
+                    <MenuList>
+                        <MenuItems><MenuLink to="/finanzen">Finanzen</MenuLink></MenuItems>
+                        <MenuItems><MenuLink to="/versicherungen">Versicherungen</MenuLink></MenuItems>
+                        <MenuItems><MenuLink to="/dsl">DSL</MenuLink></MenuItems>
+                        <MenuItems><MenuLink to="/strom-gas">Energie</MenuLink></MenuItems>
+                        <MenuItems><MenuLink to="/reisen">Reisen</MenuLink></MenuItems>
+                    </MenuList>
+                </Menu>
+            </InnerWrapper>
+        </Wrapper>
+    );
 }
 
 export default Header;

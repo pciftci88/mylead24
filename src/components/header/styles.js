@@ -1,11 +1,17 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
-export const Wrapper = styled.div`
-    display: flex;
-    justify-content: space-around;
+export const Wrapper = styled.header`
     height: 2rem;
     background-color: #16366F;
     padding: 15px 15px 20px 15px;
+`;
+
+export const InnerWrapper = styled.div`
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
 `;
 
 export const Menu = styled.nav`
@@ -24,7 +30,7 @@ export const MenuItems = styled.li`
     padding: 0 10px;
 `;
 
-export const MenuLinks = styled.a`
+export const MenuLink = styled(Link)`
     color: #fff;
     font-weight: 700;
     text-decoration: none;
