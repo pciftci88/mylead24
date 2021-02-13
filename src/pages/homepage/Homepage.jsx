@@ -1,4 +1,5 @@
 import React from 'react';
+import { withRouter } from 'react-router-dom';
 
 function Homepage() {
     return (
@@ -6,4 +7,4 @@ function Homepage() {
     );
 };
 
-export default Homepage;
+export default withRouter(Homepage);

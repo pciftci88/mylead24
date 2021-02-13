@@ -1,4 +1,5 @@
 import React from 'react';
+import { withRouter } from 'react-router-dom';
 
 function Energy() {
     return (
@@ -6,4 +7,4 @@ function Energy() {
     );
 };
 
-export default Energy;
+export default withRouter(Energy);

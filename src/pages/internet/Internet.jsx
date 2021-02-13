@@ -1,4 +1,5 @@
 import React from 'react';
+import { withRouter } from 'react-router-dom';
 
 function Internet() {
     return (
@@ -6,4 +7,4 @@ function Internet() {
     );
 };
 
-export default Internet;
+export default withRouter(Internet);

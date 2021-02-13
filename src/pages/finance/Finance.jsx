@@ -1,4 +1,5 @@
 import React from 'react';
+import { withRouter } from 'react-router-dom';
 
 function Finance() {
     return (
@@ -6,4 +7,4 @@ function Finance() {
     );
 };
 
-export default Finance;
+export default withRouter(Finance);
