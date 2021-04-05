@@ -3,7 +3,7 @@ import { Switch, Route, BrowserRouter } from 'react-router-dom';
 import Header from './components/header/Header';
 import MobileHeader from './components/mobile-header/MobileHeader';
 
-import { ContentWrapper } from './App.styles';
+import { Content } from './App.styles';
 
 const Homepage = lazy(() => import('./pages/homepage/Homepage'));
 const Energy = lazy(() => import('./pages/energy/Energy'));
@@ -49,7 +49,7 @@ class App extends React.Component {
             ) : (
                 <MobileHeader />
               )}
-            <ContentWrapper>
+            <Content>
               <Switch>
                 <Route exact path='/' component={Homepage} />
                 <Route exact path='/strom-gas' component={Energy} />
@@ -58,7 +58,7 @@ class App extends React.Component {
                 <Route exact path='/dsl' component={Internet} />
                 <Route exact path='/reisen' component={Travel} />
               </Switch>
-            </ContentWrapper>
+            </Content>
           </BrowserRouter>
         </Suspense>
       </React.Fragment>

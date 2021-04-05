@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import {
     Wrapper,
     MenuIcon,
@@ -26,7 +27,9 @@ function MobileHeader() {
     return (
         <Wrapper>
             <MenuIcon id="menuIcon" src={menuIcon} alt="Menu-Icon" onClick={toggleMenu} />
-            <Logo src={logo} alt="MyLead24 Logo" title="MyLead24" />
+            <Link to="/">
+                <Logo src={logo} alt="MyLead24 Logo" title="MyLead24" />
+            </Link>
             <Menu isVisible={visible}>
                 <Navbar>
                     <LinkListHeader>

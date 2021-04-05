@@ -2,16 +2,16 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const Wrapper = styled.header`
-    height: 2rem;
     background-color: #16366F;
-    padding: 15px 15px 20px 15px;
 `;
 
 export const InnerWrapper = styled.div`
     display: flex;
     justify-content: space-between;
+    align-items: center;
     max-width: 1280px;
     margin: 0 auto;
+    padding: 10px 0;
 `;
 
 export const Menu = styled.nav`
@@ -28,6 +28,7 @@ export const MenuList = styled.ul`
 
 export const MenuItems = styled.li`
     padding: 0 10px;
+    font-size: 1rem;
 `;
 
 export const MenuLink = styled(Link)`

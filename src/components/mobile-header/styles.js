@@ -22,6 +22,7 @@ export const Navbar = styled.div`
     height: 100%;
     box-shadow: 0 0 50px 800px rgb(0 0 0 / 55%);
     width: 15rem;
+    z-index: 2;
 `;
 
 export const LinkList = styled.nav`
@@ -31,7 +32,7 @@ export const LinkList = styled.nav`
 
 export const LinkListHeader = styled.div`
     display: flex;
-    padding: 20px 10px;
+    padding: 10px;
     align-items: center;
     justify-content: space-around;
 `;
@@ -40,6 +41,7 @@ export const MenuLink = styled(Link)`
     padding: 13px 24px;
     text-decoration: none;
     color: #696969;
+    font-size: 1rem;
     font-weight: bold;
 
     &:hover {
