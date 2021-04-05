@@ -28,7 +28,7 @@ function ImageSlider() {
                         <img src={slideTravel} alt="Finde die günstigsten Reisen und Hotels" title="Reise-Vergleich" />
                     </picture>
                     <Legend href="#">Zum Reise-Vergleich</Legend>
-                    <div>Test</div>
+
                 </div>
                 <div>
                     <picture>
@@ -36,7 +36,6 @@ function ImageSlider() {
                         <img src={slideFinance} alt="Ob Kreditkarte, Girokonto oder Kredit - hier finden Sie die besten Angebote" title="Finanz-Vergleich" />
                     </picture>
                     <Legend href="#">Zum Finanz-Vergleich</Legend>
-                    <div>Test</div>
                 </div>
                 <div>
                     <picture>
@@ -44,7 +43,6 @@ function ImageSlider() {
                         <img src={slideInternet} alt="Immer die schnellste und günstigste Verbindung im Haus mit dem DSL-Vergleich" title="DSL-Vergleich" />
                     </picture>
                     <Legend href="#">Zum DSL-Vergleich</Legend>
-                    <div>Test</div>
                 </div>
                 <div>
                     <picture>
@@ -52,7 +50,6 @@ function ImageSlider() {
                         <img src={slideInsurance} alt="" title="" />
                     </picture>
                     <Legend href="#">Zum Versicherungs-Vergleich</Legend>
-                    <div>Test</div>
                 </div>
             </Carousel>
         </Content>
