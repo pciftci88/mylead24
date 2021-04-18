@@ -11,7 +11,18 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.(js|jsx|ts|tsx)$/,
+                test: /\.(ts|tsx)?$/,
+                use: [
+                    {
+                        loader: 'ts-loader',
+                        options: {
+                            transpileOnly: true
+                        }
+                    }
+                ]
+            },
+            {
+                test: /\.(js|jsx)?$/,
                 exclude: /node_modules/,
                 use: 'babel-loader'
             },
@@ -28,6 +39,7 @@ module.exports = {
             },
             {
                 test: /\.(png|jpe?g|gif|ico)$/i,
+                exclude: /node_modules/,
                 use: [
                     {
                         loader: 'file-loader',
@@ -44,7 +56,6 @@ module.exports = {
         extensions: ['.js', '.jsx', '.ts', '.tsx']
     },
     output: {
-        filename: 'bundle.js',
-        publicPath: '/'
+        filename: 'bundle.js'
     }
 };

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 export const Wrapper = styled.header`
     background-color: #16366F;
+    padding: 0 20px;
 `;
 
 export const InnerWrapper = styled.div`
@@ -29,6 +30,10 @@ export const MenuList = styled.ul`
 export const MenuItems = styled.li`
     padding: 0 10px;
     font-size: 1rem;
+
+    &:last-child {
+        padding-right: 0;
+    }
 `;
 
 export const MenuLink = styled(Link)`

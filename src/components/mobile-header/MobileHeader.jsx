@@ -37,6 +37,7 @@ function MobileHeader() {
                         <Logo src={logo} alt="MyLead24 Logo" title="MyLead24" />
                     </LinkListHeader>
                     <LinkList>
+                        <MenuLink to="/">Home</MenuLink>
                         <MenuLink to="/finanzen">Finanzen</MenuLink>
                         <MenuLink to="/versicherungen">Versicherungen</MenuLink>
                         <MenuLink to="/dsl">DSL</MenuLink>

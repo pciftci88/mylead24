@@ -2,6 +2,7 @@ import React, { lazy, Suspense } from 'react';
 import { Switch, Route, BrowserRouter } from 'react-router-dom';
 import Header from './components/header/Header';
 import MobileHeader from './components/mobile-header/MobileHeader';
+import Footer from './components/footer/Footer';
 
 import { Content } from './App.styles';
 
@@ -11,9 +12,19 @@ const Finance = lazy(() => import('./pages/finance/Finance'));
 const Insurance = lazy(() => import('./pages/insurance/Insurance'));
 const Internet = lazy(() => import('./pages/internet/Internet'));
 const Travel = lazy(() => import('./pages/travel/Travel'));
+const Impressum = lazy(() => import('./pages/impressum/Impressum'));
+const Datenschutz = lazy(() => import('./pages/datenschutz/Datenschutz'));
 
-class App extends React.Component {
-  constructor(props) {
+interface propsTypes {
+  location?: string
+}
+
+interface stateTypes {
+  isMobile?: boolean;
+}
+
+class App extends React.Component<propsTypes, stateTypes> {
+  constructor(props: any) {
     super(props);
     this.state = {
       isMobile: false
@@ -25,7 +36,7 @@ class App extends React.Component {
     this.resize();
   }
 
-  componentDidUpdate(prevProps) {
+  componentDidUpdate(prevProps: any) {
     if (this.props.location !== prevProps.location) {
       window.scrollTo(0, 0);
     }
@@ -47,8 +58,8 @@ class App extends React.Component {
             {!this.state.isMobile ? (
               <Header />
             ) : (
-                <MobileHeader />
-              )}
+              <MobileHeader />
+            )}
             <Content>
               <Switch>
                 <Route exact path='/' component={Homepage} />
@@ -57,8 +68,11 @@ class App extends React.Component {
                 <Route exact path='/versicherungen' component={Insurance} />
                 <Route exact path='/dsl' component={Internet} />
                 <Route exact path='/reisen' component={Travel} />
+                <Route exact path='/impressum' component={Impressum} />
+                <Route exact path='/datenschutz' component={Datenschutz} />
               </Switch>
             </Content>
+            <Footer />
           </BrowserRouter>
         </Suspense>
       </React.Fragment>
