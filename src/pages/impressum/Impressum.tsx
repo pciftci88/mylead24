@@ -34,7 +34,7 @@ class Impressum extends Component {
                     <h2>Weitere Hinweise:</h2>
                     <p><strong>CHECK24.net Partnerprogramm</strong></p>
                     <p>Wir nehmen am CHECK24.net Partnerprogramm teil. Auf unseren Seiten werden iFrame-Buchungsmasken und andere Werbemittel eingebunden, an denen wir über Transaktionen, zum Beispiel durch Leads und Sales, eine Werbekostenerstattung erhalten können.</p>
-                    <p>Weitere Informationen zur Datennutzung durch CHECK24.net erhalten Sie in der Datenschutzerklärung von <a href="https://www.check24.net" target="_blank">CHECK24.net</a>.</p>
+                    <p>Weitere Informationen zur Datennutzung durch CHECK24.net erhalten Sie in der Datenschutzerklärung von <a href="https://www.check24.net" target="_blank" rel="noreferrer">CHECK24.net</a>.</p>
                     <p>und</p>
                     <p>Alle Vergleiche powered by TARIFCHECK24 GmbH</p>
                     <p>

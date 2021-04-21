@@ -2,11 +2,7 @@ import React, { ReactElement } from 'react';
 import { Link } from 'react-router-dom';
 import { Wrapper, Copyright, FooterLinkList, FooterLink } from './styles';
 
-interface Props {
-
-}
-
-export default function Footer({ }: Props): ReactElement {
+export default function Footer(): ReactElement {
     const copyrightYear = new Date().getFullYear();
     return (
         <Wrapper>
