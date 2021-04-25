@@ -36,7 +36,7 @@ function MobileHeader() {
                         <CloseIcon id="closeIcon" src={closeIcon} alt="Close-Icon" onClick={toggleMenu} />
                         <Logo src={logo} alt="MyLead24 Logo" title="MyLead24" />
                     </LinkListHeader>
-                    <LinkList>
+                    <LinkList onClick={toggleMenu}>
                         <MenuLink to="/">Startseite</MenuLink>
                         <MenuLink to="/finanzen">Finanzen</MenuLink>
                         <MenuLink to="/versicherungen">Versicherungen</MenuLink>
