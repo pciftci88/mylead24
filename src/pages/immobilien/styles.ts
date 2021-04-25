@@ -4,6 +4,8 @@ export const Title = styled.h1`
     text-align: center;
 `;
 
-export const Content = styled.div`
-    margin: 0 auto;
+export const Widget = styled.div`
+    display: flex;
+    justify-content: center;
+    width: 100%;
 `;

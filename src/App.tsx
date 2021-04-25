@@ -4,16 +4,19 @@ import Header from './components/header/Header';
 import MobileHeader from './components/mobile-header/MobileHeader';
 import Footer from './components/footer/Footer';
 
-import { Content } from './App.styles';
+import { Title, Content } from './App.styles';
 
 const Homepage = lazy(() => import('./pages/homepage/Homepage'));
 const Energy = lazy(() => import('./pages/energy/Energy'));
 const Finance = lazy(() => import('./pages/finance/Finance'));
 const Insurance = lazy(() => import('./pages/insurance/Insurance'));
-const Internet = lazy(() => import('./pages/internet/Internet'));
+const DSL = lazy(() => import('./pages/dsl/Dsl'));
 const Travel = lazy(() => import('./pages/travel/Travel'));
 const Impressum = lazy(() => import('./pages/impressum/Impressum'));
 const Datenschutz = lazy(() => import('./pages/datenschutz/Datenschutz'));
+const Immobilien = lazy(() => import('./pages/immobilien/Immobilien'));
+const Baufinanzierung = lazy(() => import('./pages/baufinanzierung/Baufinanzierung'));
+const Kredite = lazy(() => import('./pages/kredite/Kredite'));
 
 interface propsTypes {
   location?: string
@@ -65,9 +68,12 @@ class App extends React.Component<propsTypes, stateTypes> {
                 <Route exact path='/' component={Homepage} />
                 <Route exact path='/strom-gas' component={Energy} />
                 <Route exact path='/finanzen' component={Finance} />
+                <Route exact path='/finanzen/immobilien' children={<Immobilien title={<Title>Immobilien</Title>} />} />
+                <Route exact path='/finanzen/baufinanzierung' children={<Baufinanzierung title={<Title>Baufinanzierung</Title>} />} />
+                <Route exact path='/finanzen/kredite' children={<Kredite title={<Title>Kredite</Title>} />} />
                 <Route exact path='/versicherungen' component={Insurance} />
-                <Route exact path='/dsl' component={Internet} />
-                <Route exact path='/reisen' component={Travel} />
+                <Route exact path='/dsl' children={<DSL title={<Title>DSL</Title>} />} />
+                <Route exact path='/reisen' children={<Travel title={<Title>Reisevergleich</Title>} />} />
                 <Route exact path='/impressum' component={Impressum} />
                 <Route exact path='/datenschutz' component={Datenschutz} />
               </Switch>

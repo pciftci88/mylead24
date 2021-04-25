@@ -22,3 +22,8 @@ export const Hint = styled.p`
     max-width: 60em;
     font-size: 1.3em;
 `;
+
+export const TarifCheckIframe = styled.iframe`
+    width: 100%;
+    border: 0;
+`;

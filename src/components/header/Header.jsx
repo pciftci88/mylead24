@@ -13,6 +13,7 @@ function Header() {
                 </Link>
                 <Menu>
                     <MenuList>
+                        <MenuItems><MenuLink to="/">Startseite</MenuLink></MenuItems>
                         <MenuItems><MenuLink to="/finanzen">Finanzen</MenuLink></MenuItems>
                         <MenuItems><MenuLink to="/versicherungen">Versicherungen</MenuLink></MenuItems>
                         <MenuItems><MenuLink to="/dsl">DSL</MenuLink></MenuItems>

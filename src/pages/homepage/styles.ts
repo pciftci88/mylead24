@@ -36,7 +36,7 @@ export const WidgetContainer = styled.div`
     min-height: 30em;
     max-width: 120em;
 
-    @media (max-width: 102em) {
+    @media (max-width: 1020px) {
         padding: 2em 0;
     }
 `;

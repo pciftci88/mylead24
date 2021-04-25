@@ -12,6 +12,10 @@ export const Copyright = styled.div`
 
 export const FooterLinkList = styled.ul`
     margin: 2em auto;
+
+    @media (max-width: 1020px) {
+        padding: 0;
+    }
 `;
 
 export const FooterLink = styled.li`
