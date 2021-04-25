@@ -3,11 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouseUser, faHandHoldingUsd, faCreditCard } from '@fortawesome/free-solid-svg-icons';
 import { Wrapper, LinkWrapper, LinkText } from './styles';
 
-interface Props {
-
-}
-
-export default function Finance({ }: Props): ReactElement {
+export default function Finance(): ReactElement {
     return (
         <Wrapper>
             <h1>Finanzübersicht</h1>
