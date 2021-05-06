@@ -1,24 +1,37 @@
 import React, { ReactElement } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouseUser, faHandHoldingUsd, faCreditCard } from '@fortawesome/free-solid-svg-icons';
-import { Wrapper, LinkWrapper, LinkText } from './styles';
+import {
+    ProductLink,
+    LinkText,
+    LinkWrapper
+} from '../../global/pageStyles';
+import { TitleWrapper } from './styles';
 
-export default function Finance(): ReactElement {
+interface Props {
+    title?: any;
+}
+
+export default function Finance(props: Props): ReactElement {
     return (
-        <Wrapper>
-            <h1>Finanzübersicht</h1>
-            <LinkWrapper to='/finanzen/immobilien'>
-                <FontAwesomeIcon icon={faHouseUser} size='6x' color='orange' />
-                <LinkText>Immobilien</LinkText>
+        <>
+            <TitleWrapper>
+                {props.title && props.title}
+            </TitleWrapper>
+            <LinkWrapper>
+                <ProductLink to='/finanzen/immobilien'>
+                    <FontAwesomeIcon icon={faHouseUser} size='6x' color='orange' />
+                    <LinkText>Immobilien</LinkText>
+                </ProductLink>
+                <ProductLink to='/finanzen/baufinanzierung'>
+                    <FontAwesomeIcon icon={faHandHoldingUsd} size='6x' color='orange' />
+                    <LinkText>Baufinanzierung</LinkText>
+                </ProductLink>
+                <ProductLink to='/finanzen/kredite'>
+                    <FontAwesomeIcon icon={faCreditCard} size='6x' color='orange' />
+                    <LinkText>Kredite</LinkText>
+                </ProductLink>
             </LinkWrapper>
-            <LinkWrapper to='/finanzen/baufinanzierung'>
-                <FontAwesomeIcon icon={faHandHoldingUsd} size='6x' color='orange' />
-                <LinkText>Baufinanzierung</LinkText>
-            </LinkWrapper>
-            <LinkWrapper to='/finanzen/kredite'>
-                <FontAwesomeIcon icon={faCreditCard} size='6x' color='orange' />
-                <LinkText>Kredite</LinkText>
-            </LinkWrapper>
-        </Wrapper>
+        </>
     )
 }

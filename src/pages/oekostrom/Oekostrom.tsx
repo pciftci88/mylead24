@@ -6,14 +6,14 @@ interface Props {
     title?: any;
 }
 
-export default function Baufinanzierung(props: Props): ReactElement {
+export default function Oekostrom(props: Props): ReactElement {
     return (
         <Content>
             {props.title && props.title}
             <WidgetInitializer
-                id="c24pp-package-iframe"
-                scripts='https://files.check24.net/widgets/auto/175104/c24pp-package-iframe/package-iframe.js'
-                data-forward-url="no"
+                id="c24pp-power-iframe"
+                scripts='https://files.check24.net/widgets/auto/175104/c24pp-power-iframe/power-iframe.js'
+                data-eco="yes"
             />
         </Content>
     )

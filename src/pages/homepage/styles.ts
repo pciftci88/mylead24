@@ -5,13 +5,10 @@ interface ProductProps {
     bgImage?: any
 }
 
-export const Content = styled.div`
-    margin: 0 auto;
-`;
-
-export const Product = styled.div<ProductProps>`
+export const Product = styled.section<ProductProps>`
     text-align: center;
     background: url(${props => props.withBackground && props.bgImage});
+    width: 100%;
 `;
 
 export const ProductTitle = styled.h2`
@@ -30,10 +27,10 @@ export const ProductTitle = styled.h2`
 export const WidgetContainer = styled.div`
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin: 0 auto;
-    min-height: 30em;
+    min-height: 40em;
     max-width: 120em;
 
     @media (max-width: 1020px) {
@@ -43,17 +40,14 @@ export const WidgetContainer = styled.div`
 
 export const Widget = styled.div`
     flex: 1 1 20em;
-    margin: 0 1.5em;
+    margin: 2em;
+    max-width: 400px;
 
     @media (max-width: 1020px) {
         flex-basis: 100%;
         
         &:first-child {
             margin: 0;
-        }
-
-        &:not(:first-child) {
-            margin: 2em 0 0;
         }
     };
 `;

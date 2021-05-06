@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const Content = styled.section`
-    margin: 40px 0;
     position: relative;
 `;
 
@@ -19,6 +18,10 @@ export const Legend = styled.a`
     color: #fff;
     font-weight: bold;
     font-size: 1.2rem;
+
+    &:hover {
+        background-color: #173d82;
+    }
 
     @media (max-width: 1020px) {
         font-size: 0.8rem;

@@ -1,6 +1,18 @@
 @import-normalize;
 
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
 body {
+  display: flex;
+  flex-direction: column;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -9,6 +21,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #333;
+  height: 100%;
 }
 
 code {
@@ -17,19 +30,19 @@ code {
 }
 
 cite {
-  font-size: 1.3em;
+  font-size: 1.3rem;
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 3rem;
 }
 
 h2 {
-  font-size: 1.8em;
+  font-size: 1.8rem;
 }
 
 p {
-  font-size: 1.6em;
+  font-size: 1.3rem;
   line-height: 1.4;
 } 
 
@@ -39,6 +52,6 @@ iframe {
 
 @media (max-width: 1020px) {
   h1 {
-    font-size: 3.2em;
+    font-size: 2.2rem;
   }
 }

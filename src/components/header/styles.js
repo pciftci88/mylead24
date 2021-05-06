@@ -1,9 +1,11 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import { StickyHeader } from '../../global/pageStyles';
 
 export const Wrapper = styled.header`
     background-color: #16366F;
     padding: 0 20px;
+    ${StickyHeader};
 `;
 
 export const InnerWrapper = styled.div`

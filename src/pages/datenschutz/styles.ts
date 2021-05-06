@@ -13,7 +13,7 @@ export const Title = styled.h1`
 `;
 
 export const H3Title = styled.h3`
-    font-size: 1.5em;
+    font-size: 1.5rem;
 `;
 
 export const Section = styled.div`
@@ -21,7 +21,7 @@ export const Section = styled.div`
 `;
 
 export const List = styled.ul`
-    font-size: 1.3em;
+    font-size: 1.3rem;
     line-height: 1.4;
     list-style: circle;
 `;

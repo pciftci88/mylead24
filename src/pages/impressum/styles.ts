@@ -20,7 +20,7 @@ export const Hint = styled.p`
     margin: 0 auto;
     text-align: center;
     max-width: 60em;
-    font-size: 1.3em;
+    font-size: 1.3rem;
 `;
 
 export const TarifCheckIframe = styled.iframe`

@@ -1,11 +1,13 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import { StickyHeader } from '../../global/pageStyles';
 
 export const Wrapper = styled.header`
     display: flex;
     align-items: center;
     background-color: #16366F;
     height: 60px;
+    ${StickyHeader};
 `;
 
 export const Menu = styled.div`
@@ -16,7 +18,7 @@ export const Navbar = styled.div`
     display: flex;
     flex-direction: column;  
     background-color: #fff;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     height: 100%;

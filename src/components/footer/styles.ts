@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.footer`
     max-width: 128em;
-    margin: 0 auto;
+    margin: auto auto 0;
     text-align: center;
 `;
 

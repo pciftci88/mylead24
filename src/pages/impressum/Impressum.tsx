@@ -23,7 +23,7 @@ class Impressum extends Component {
                         81377 München<br />
                         Deutschland
                     </p>
-                    <p>USt-ID-Nr: DE XXXXXX</p>
+                    {/*<p>USt-ID-Nr: DE XXXXXX</p>*/}
                     <p>
                         Email: info@mylead24.com<br />
                         Geschäftsführer: Philipp Ciftci

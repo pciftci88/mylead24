@@ -6,14 +6,13 @@ interface Props {
     title?: any;
 }
 
-export default function Baufinanzierung(props: Props): ReactElement {
+export default function MotorcycleInsurance(props: Props): ReactElement {
     return (
         <Content>
             {props.title && props.title}
             <WidgetInitializer
-                id="c24pp-package-iframe"
-                scripts='https://files.check24.net/widgets/auto/175104/c24pp-package-iframe/package-iframe.js'
-                data-forward-url="no"
+                id="tcpp-iframe-mot"
+                scripts='https://form.partner-versicherung.de/widgets/109564/tcpp-iframe-mot/mot-iframe.js'
             />
         </Content>
     )
