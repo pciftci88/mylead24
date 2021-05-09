@@ -6,6 +6,7 @@ import {
     LinkText,
     LinkWrapper
 } from '../../global/pageStyles';
+import { Teaser } from './styles';
 
 interface Props {
     title?: any;
@@ -14,7 +15,9 @@ interface Props {
 export default function Energy(props: Props): ReactElement {
     return (
         <>
-            {props.title && props.title}
+            <Teaser>
+                {props.title && props.title}
+            </Teaser>
             <LinkWrapper>
                 <ProductLink to='/strom-gas/strom'>
                     <FontAwesomeIcon icon={faBolt} size='6x' color='orange' />
