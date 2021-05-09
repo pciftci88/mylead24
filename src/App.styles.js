@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import Loader from "react-loader-spinner";
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 
 export const Title = styled.h1`
     text-align: center;
@@ -22,4 +24,13 @@ export const Content = styled.main`
     flex-direction: column;
     margin: 9em auto 2em auto;
     width: 100%;
+`;
+
+export const SuspenseLoader = styled(Loader)`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 `;

@@ -4,7 +4,7 @@ import Header from './components/header/Header';
 import MobileHeader from './components/mobile-header/MobileHeader';
 import Footer from './components/footer/Footer';
 
-import { Title, Content } from './App.styles';
+import { Title, Content, SuspenseLoader } from './App.styles';
 
 const Homepage = lazy(() => import('./pages/homepage/Homepage'));
 const Energy = lazy(() => import('./pages/energy/Energy'));
@@ -62,7 +62,7 @@ class App extends React.Component<propsTypes, stateTypes> {
   render() {
     return (
       <React.Fragment>
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={<SuspenseLoader type="TailSpin" color="#16366F" height={100} width={100} />}>
           <BrowserRouter basename="/">
             {!this.state.isMobile ? (
               <Header />
