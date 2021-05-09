@@ -57,3 +57,16 @@ export const Content = styled.section`
     width: 100%;
     max-width: 102em;
 `;
+
+export const TitleWrapper = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: .5rem;
+    min-height: 30em;
+
+    @media(max-width: 1020px) {
+        min-height: 20em;
+    }
+`;

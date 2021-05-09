@@ -6,7 +6,7 @@ import {
     LinkText,
     LinkWrapper
 } from '../../global/pageStyles';
-import { TitleWrapper } from './styles';
+import { Teaser } from './styles';
 
 interface Props {
     title?: any;
@@ -15,9 +15,9 @@ interface Props {
 export default function Finance(props: Props): ReactElement {
     return (
         <>
-            <TitleWrapper>
+            <Teaser>
                 {props.title && props.title}
-            </TitleWrapper>
+            </Teaser>
             <LinkWrapper>
                 <ProductLink to='/finanzen/immobilien'>
                     <FontAwesomeIcon icon={faHouseUser} size='6x' color='orange' />
