@@ -1,4 +1,5 @@
 import React, { ReactElement } from 'react';
+import { Helmet } from 'react-helmet';
 import WidgetInitializer from '../../components/widget-initializer/WidgetInitializer';
 import { Content } from '../../global/pageStyles';
 import { Teaser } from './styles';
@@ -10,6 +11,10 @@ interface Props {
 export default function Dsl(props: Props): ReactElement {
     return (
         <>
+            <Helmet>
+                <title>DSL-Vergleich - Schnelles Internet für dein zu Hause</title>
+                <meta name="description" content="Heute noch upgraden und schneller im Internet surfen" />
+            </Helmet>
             <Teaser>
                 {props.title && props.title}
             </Teaser>

@@ -45,10 +45,6 @@ export const Widget = styled.div`
 
     @media (max-width: 1020px) {
         flex-basis: 100%;
-        
-        &:first-child {
-            margin: 0;
-        }
     };
 `;
 

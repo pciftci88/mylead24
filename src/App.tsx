@@ -1,5 +1,6 @@
 import React, { lazy, Suspense } from 'react';
 import { Switch, Route, BrowserRouter } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 import Header from './components/header/Header';
 import MobileHeader from './components/mobile-header/MobileHeader';
 import Footer from './components/footer/Footer';
@@ -23,6 +24,7 @@ const Oekostrom = lazy(() => import('./pages/oekostrom/Oekostrom'));
 const Gas = lazy(() => import('./pages/gas/Gas'));
 const CarInsurance = lazy(() => import('./pages/car-insurance/CarInsurance'));
 const MotorcycleInsurancensurance = lazy(() => import('./pages/motorcycle-insurance/MotorcycleInsurance'));
+const RentalCar = lazy(() => import('./pages/rentalcar/RentalCar'));
 
 interface propsTypes {
   location?: string
@@ -62,6 +64,10 @@ class App extends React.Component<propsTypes, stateTypes> {
   render() {
     return (
       <React.Fragment>
+        <Helmet>
+          <title>MyLead24 - Verlgiechen und Sparen</title>
+          <meta name="description" content="MyLead24 - Verlgiechen und Sparen: Versicherungen, Kredite, Strom-, DSL-Tarife, Mietwagen, Reisen und Flüge." />
+        </Helmet>
         <Suspense fallback={<SuspenseLoader type="TailSpin" color="#16366F" height={100} width={100} />}>
           <BrowserRouter basename="/">
             {!this.state.isMobile ? (
@@ -84,8 +90,9 @@ class App extends React.Component<propsTypes, stateTypes> {
                 <Route exact path='/versicherungen/kfz-versicherung' children={<CarInsurance title={<Title>Kfz-Versicherung</Title>} />} />
                 <Route exact path='/versicherungen/motorrad-versicherung' children={<MotorcycleInsurancensurance title={<Title>Motorrad Versicherung</Title>} />} />
                 <Route exact path='/versicherungen/vorsorgeversicherung' children={<PreventionInsurance title={<Title>Vorsorgeversicherung</Title>} />} />
-                <Route exact path='/dsl' children={<DSL title={<Title>DSL</Title>} />} />
+                <Route exact path='/dsl' children={<DSL title={<Title>DSL-Vergleich</Title>} />} />
                 <Route exact path='/reisen' children={<Travel title={<Title>Reisevergleich</Title>} />} />
+                <Route exact path='/mietwagen' children={<RentalCar title={<Title>Mietwagen</Title>} />} />
                 <Route exact path='/impressum' component={Impressum} />
                 <Route exact path='/datenschutz' component={Datenschutz} />
               </Switch>

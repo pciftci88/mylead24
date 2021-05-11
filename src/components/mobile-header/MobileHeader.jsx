@@ -43,6 +43,7 @@ function MobileHeader() {
                         <MenuLink to="/dsl">DSL</MenuLink>
                         <MenuLink to="/strom-gas">Energie</MenuLink>
                         <MenuLink to="/reisen">Reisen</MenuLink>
+                        <MenuLink to="/mietwagen">Mietwagen</MenuLink>
                     </LinkList>
                 </Navbar>
             </Menu>

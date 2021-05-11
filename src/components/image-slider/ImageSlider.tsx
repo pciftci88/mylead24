@@ -8,11 +8,13 @@ import slideFinance from '../../images/mainslider/slide-finance.jpg';
 import slideInternet from '../../images/mainslider/slide-internet.jpg';
 import slideInsurance from '../../images/mainslider/slide-insurance.jpg';
 import slidePower from '../../images/mainslider/slide-power.jpg';
+import slideRentalCar from '../../images/mainslider/slide-rentalcar.jpg';
 import slideTravelMob from '../../images/mainslider/slide-travel-mob.jpg';
 import slideFinanceMob from '../../images/mainslider/slide-finance-mob.jpg';
 import slideInternetMob from '../../images/mainslider/slide-internet-mob.jpg';
 import slideInsuranceMob from '../../images/mainslider/slide-insurance-mob.jpg';
 import slidePowerMob from '../../images/mainslider/slide-power-mob.jpg';
+import slideRentalCarMob from '../../images/mainslider/slide-rentalcar-mob.jpg';
 
 function ImageSlider() {
     return (
@@ -49,16 +51,23 @@ function ImageSlider() {
                 <div>
                     <picture>
                         <source media="(max-width:960px)" srcSet={slideInsuranceMob} />
-                        <img src={slideInsurance} alt="" title="" />
+                        <img src={slideInsurance} alt="Die beste Versicherung für Ihre Vorsorge finden" title="Versicherungs-Vergleich" />
                     </picture>
                     <Legend href="/versicherungen">Zum Versicherungs-Vergleich</Legend>
                 </div>
                 <div>
                     <picture>
                         <source media="(max-width:960px)" srcSet={slidePowerMob} />
-                        <img src={slidePower} alt="" title="" />
+                        <img src={slidePower} alt="Ihr zu Hause immer rundum versorgt" title="Strom- und Gasvergleich" />
                     </picture>
                     <Legend href="/strom-gas">Zum Strom- und Gasvergleich</Legend>
+                </div>
+                <div>
+                    <picture>
+                        <source media="(max-width:960px)" srcSet={slideRentalCarMob} />
+                        <img src={slideRentalCar} alt="Miete dir noch heute dein Traumauto zum besten Preis" title="Mietwagen Vergleich" />
+                    </picture>
+                    <Legend href="/mietwagen">Zum Mietwagen Vergleich</Legend>
                 </div>
             </Carousel>
         </Content>
