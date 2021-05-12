@@ -1,4 +1,4 @@
-let CACHE_NAME = 'mylead24';
+let CACHE_NAME = 'MyLead24';
 let urlsToCache = [
     '/',
     '/completed'
