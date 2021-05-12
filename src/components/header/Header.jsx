@@ -19,7 +19,6 @@ function Header() {
                         <MenuItems><MenuLink to="/dsl">DSL</MenuLink></MenuItems>
                         <MenuItems><MenuLink to="/strom-gas">Energie</MenuLink></MenuItems>
                         <MenuItems><MenuLink to="/reisen">Reisen</MenuLink></MenuItems>
-                        <MenuItems><MenuLink to="/reisen">Reisen</MenuLink></MenuItems>
                         <MenuItems><MenuLink to="/mietwagen">Mietwagen</MenuLink></MenuItems>
                     </MenuList>
                 </Menu>

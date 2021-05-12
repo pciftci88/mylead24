@@ -4,7 +4,6 @@ import { StickyHeader } from '../../global/pageStyles';
 
 export const Wrapper = styled.header`
     background-color: #16366F;
-    padding: 0 20px;
     ${StickyHeader};
 `;
 
@@ -12,9 +11,8 @@ export const InnerWrapper = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1280px;
     margin: 0 auto;
-    padding: 10px 0;
+    padding: 1em 2em;
 `;
 
 export const Menu = styled.nav`
