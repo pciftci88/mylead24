@@ -40,6 +40,9 @@ class App extends React.Component<propsTypes, stateTypes> {
     this.state = {
       isMobile: false
     }
+  }
+
+  componentDidMount() {
     window.addEventListener("resize", this.resize.bind(this));
     this.resize();
   }
