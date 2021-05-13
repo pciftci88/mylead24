@@ -2,8 +2,9 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.footer`
     max-width: 128em;
-    margin: auto auto 0;
+    margin: auto 1em 0;
     text-align: center;
+    font-size: 1rem;
 `;
 
 export const Copyright = styled.div`
@@ -22,4 +23,8 @@ export const FooterLink = styled.li`
     display: inline-block;
     list-style: none;
     padding: 0 1em;
+`;
+
+export const Hint = styled.p`
+    font-size: 1rem;
 `;

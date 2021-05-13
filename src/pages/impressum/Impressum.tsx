@@ -54,9 +54,6 @@ class Impressum extends Component {
                 <Section>
                     <Hint><strong>Hinweis:</strong> Wir nehmen am Partnerprogramm von Finanzcheck, Tarifcheck & Check24 teil und erhalten bei einer erfolgreichen Vermittlung eine Provision. Sie haben dadurch keinen Nachteil und zahlen auch nicht mehr dafür.</Hint>
                 </Section>
-                <Section>
-                    <TarifCheckIframe src="https://a.partner-versicherung.de/filestore/ad/1166/index.php?partner_id=109564" scrolling="no"></TarifCheckIframe>
-                </Section>
             </Wrapper>
         )
     }

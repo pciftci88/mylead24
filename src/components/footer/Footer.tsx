@@ -1,6 +1,6 @@
 import React, { ReactElement } from 'react';
 import { Link } from 'react-router-dom';
-import { Wrapper, Copyright, FooterLinkList, FooterLink } from './styles';
+import { Wrapper, Copyright, FooterLinkList, FooterLink, Hint } from './styles';
 
 export default function Footer(): ReactElement {
     const copyrightYear = new Date().getFullYear();
@@ -14,6 +14,7 @@ export default function Footer(): ReactElement {
                     <Link to='/datenschutz'>Datenschutz</Link>
                 </FooterLink>
             </FooterLinkList>
+            <Hint>Wir verwenden auf unserer Webseite optimierte Vergleichsrechner von Tarifcheck, Check24 und Finanzcheck um Ihnen die besten Angebote anzeigen zu können. Wir sind keine Versicherungsmakler.</Hint>
             <Copyright>© {copyrightYear} MyLead24. Alle Inhalte unterliegen unserem Copyright.</Copyright>
         </Wrapper>
     )
