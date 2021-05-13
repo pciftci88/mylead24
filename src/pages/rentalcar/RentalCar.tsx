@@ -1,4 +1,5 @@
 import React, { ReactElement } from 'react';
+import { Helmet } from 'react-helmet';
 import { Teaser, Widget } from './styles';
 
 interface Props {
@@ -8,6 +9,10 @@ interface Props {
 export default function RentalCar(props: Props): ReactElement {
     return (
         <>
+            <Helmet>
+                <title>Mietwagen</title>
+                <meta name="description" content="Mieten Sie sich noch heute Ihr Traumauto." />
+            </Helmet>
             <Teaser>
                 {props.title && props.title}
             </Teaser>

@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { Helmet } from 'react-helmet';
 import {
     Wrapper,
     Section,
@@ -13,6 +14,10 @@ class Impressum extends Component {
     render() {
         return (
             <Wrapper>
+                <Helmet>
+                    <title>Impressum</title>
+                    <meta name="description" content="Unser Impressum." />
+                </Helmet>
                 <Title>Impressum</Title>
                 <Section>
                     <p><strong>MyLead24.de ist ein Angebot von:</strong></p>

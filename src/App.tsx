@@ -79,16 +79,16 @@ class App extends React.Component<propsTypes, stateTypes> {
               <Switch>
                 <Route exact path='/' component={Homepage} />
                 <Route exact path='/strom-gas' children={<Energy title={<Title>Strom & Gas Übersicht</Title>} />} />
-                <Route exact path='/strom-gas/strom' children={<Strom title={<Title>Strom Übersicht</Title>} />} />
-                <Route exact path='/strom-gas/oekostrom' children={<Oekostrom title={<Title>Ökostrom Übersicht</Title>} />} />
-                <Route exact path='/strom-gas/gas' children={<Gas title={<Title>Gas Übersicht</Title>} />} />
+                <Route exact path='/strom-gas/strom' children={<Strom title={<Title>Strom-Tarife</Title>} />} />
+                <Route exact path='/strom-gas/oekostrom' children={<Oekostrom title={<Title>Ökostrom-Tarife</Title>} />} />
+                <Route exact path='/strom-gas/gas' children={<Gas title={<Title>Gas-Tarife</Title>} />} />
                 <Route exact path='/finanzen' children={<Finance title={<Title>Finanzübersicht</Title>} />} />
                 <Route exact path='/finanzen/immobilien' children={<Immobilien title={<Title>Immobilien</Title>} />} />
                 <Route exact path='/finanzen/baufinanzierung' children={<Baufinanzierung title={<Title>Baufinanzierung</Title>} />} />
                 <Route exact path='/finanzen/kredite' children={<Kredite title={<Title>Kredite</Title>} />} />
                 <Route exact path='/versicherungen' children={<Insurance title={<Title>Versicherungen</Title>} />} />
                 <Route exact path='/versicherungen/kfz-versicherung' children={<CarInsurance title={<Title>Kfz-Versicherung</Title>} />} />
-                <Route exact path='/versicherungen/motorrad-versicherung' children={<MotorcycleInsurancensurance title={<Title>Motorrad Versicherung</Title>} />} />
+                <Route exact path='/versicherungen/motorrad-versicherung' children={<MotorcycleInsurancensurance title={<Title>Motorrad-Versicherung</Title>} />} />
                 <Route exact path='/versicherungen/vorsorgeversicherung' children={<PreventionInsurance title={<Title>Vorsorgeversicherung</Title>} />} />
                 <Route exact path='/dsl' children={<DSL title={<Title>DSL-Vergleich</Title>} />} />
                 <Route exact path='/reisen' children={<Travel title={<Title>Reisevergleich</Title>} />} />

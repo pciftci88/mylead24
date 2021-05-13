@@ -1,4 +1,5 @@
 import React, { ReactElement } from 'react';
+import { Helmet } from 'react-helmet';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCarCrash, faMotorcycle, faProcedures } from '@fortawesome/free-solid-svg-icons';
 import {
@@ -15,6 +16,10 @@ interface Props {
 export default function Insurance(props: Props): ReactElement {
     return (
         <>
+            <Helmet>
+                <title>Versicherungen Übersicht</title>
+                <meta name="description" content="Finden Sie die passende Versicherung." />
+            </Helmet>
             <Teaser>
                 {props.title && props.title}
             </Teaser>

@@ -67,7 +67,7 @@ function ImageSlider() {
                         <source media="(max-width:960px)" srcSet={slideRentalCarMob} />
                         <img src={slideRentalCar} alt="Miete dir noch heute dein Traumauto zum besten Preis" title="Mietwagen Vergleich" />
                     </picture>
-                    <Legend href="/mietwagen">Zum Mietwagen Vergleich</Legend>
+                    <Legend href="/mietwagen">Zum Mietwagen-Vergleich</Legend>
                 </div>
             </Carousel>
         </Content>

@@ -1,4 +1,5 @@
 import React, { ReactElement } from 'react';
+import { Helmet } from 'react-helmet';
 import {
     Wrapper,
     Title,
@@ -10,6 +11,10 @@ import {
 export default function Datenschutz(): ReactElement {
     return (
         <Wrapper>
+            <Helmet>
+                <title>Datenschutz</title>
+                <meta name="description" content="Alles rund um den Datenschutz." />
+            </Helmet>
             <Title>Datenschutzerklärung</Title>
             <Section>
                 <h2>Einleitung</h2>

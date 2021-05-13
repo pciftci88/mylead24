@@ -1,4 +1,5 @@
 import React, { ReactElement } from 'react';
+import { Helmet } from 'react-helmet';
 import WidgetInitializer from '../../components/widget-initializer/WidgetInitializer';
 import { Content } from '../../global/pageStyles';
 
@@ -9,6 +10,10 @@ interface Props {
 export default function Kredite(props: Props): ReactElement {
     return (
         <Content>
+            <Helmet>
+                <title>Kredite</title>
+                <meta name="description" content="Holen Sie sich den Kredit mit den günstigsten Zinsen." />
+            </Helmet>
             {props.title && props.title}
             <WidgetInitializer
                 id="tcpp-iframe-kredit"

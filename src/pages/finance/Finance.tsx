@@ -1,4 +1,5 @@
 import React, { ReactElement } from 'react';
+import { Helmet } from 'react-helmet';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouseUser, faHandHoldingUsd, faCreditCard } from '@fortawesome/free-solid-svg-icons';
 import {
@@ -15,6 +16,10 @@ interface Props {
 export default function Finance(props: Props): ReactElement {
     return (
         <>
+            <Helmet>
+                <title>Finanzübersicht</title>
+                <meta name="description" content="Ihre Finanzen immer im Blick." />
+            </Helmet>
             <Teaser>
                 {props.title && props.title}
             </Teaser>
