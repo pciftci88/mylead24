@@ -1,13 +1,14 @@
 import styled from 'styled-components';
 
 interface ProductProps {
-    withBackground?: boolean,
     bgImage?: any
 }
 
 export const Product = styled.section<ProductProps>`
     text-align: center;
-    background: url(${props => props.withBackground && props.bgImage});
+    background: url(${props => props.bgImage && props.bgImage});
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
 `;
 
