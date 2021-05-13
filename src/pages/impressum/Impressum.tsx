@@ -4,8 +4,7 @@ import {
     Wrapper,
     Section,
     Title,
-    Hint,
-    TarifCheckIframe
+    Hint
 } from './styles';
 
 class Impressum extends Component {
