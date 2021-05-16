@@ -37,7 +37,7 @@ function ImageSlider() {
                 <div>
                     <picture>
                         <source media="(max-width:960px)" srcSet={slideFinanceMob} />
-                        <img src={slideFinance} alt="Ob Kreditkarte, Girokonto oder Kredit - hier finden Sie die besten Angebote" title="Finanz-Vergleich" />
+                        <img src={slideFinance} alt="Finden Sie hier den günstigsten Kredit oder die passende Baufinanzierung " title="Finanz-Vergleich" />
                     </picture>
                     <Legend href="/finanzen">Zum Finanz-Vergleich</Legend>
                 </div>
