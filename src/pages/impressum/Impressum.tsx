@@ -16,6 +16,7 @@ class Impressum extends Component {
                 <Helmet>
                     <title>Impressum</title>
                     <meta name="description" content="Unser Impressum." />
+                    <link rel="alternate" hrefLang="de" href="https://mylead24.de/impressum" />
                 </Helmet>
                 <Title>Impressum</Title>
                 <Section>

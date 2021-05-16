@@ -5,13 +5,13 @@ function Overview() {
     return (
         <Wrapper>
             <Product>
-                <ProductHeader>Finanzen</ProductHeader>
+                <ProductHeader>Finance</ProductHeader>
             </Product>
             <Product>
-                <ProductHeader>Versicherungen</ProductHeader>
+                <ProductHeader>Insurances</ProductHeader>
             </Product>
             <Product>
-                <ProductHeader>Haushalt</ProductHeader>
+                <ProductHeader>Housekeeping</ProductHeader>
             </Product>
         </Wrapper>
     )

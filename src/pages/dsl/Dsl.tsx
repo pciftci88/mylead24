@@ -12,8 +12,9 @@ export default function Dsl(props: Props): ReactElement {
     return (
         <>
             <Helmet>
-                <title>DSL-Vergleich - Schnelles Internet für dein zu Hause</title>
-                <meta name="description" content="Heute noch upgraden und schneller im Internet surfen" />
+                <title>Internet comparison - Fast internet for your home.</title>
+                <meta name="description" content="Upgrade today and surf the internet faster" />
+                <link rel="alternate" hrefLang="de" href="https://mylead24.de/dsl" />
             </Helmet>
             <Teaser>
                 {props.title && props.title}

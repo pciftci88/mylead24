@@ -37,13 +37,13 @@ function MobileHeader() {
                         <Logo src={logo} alt="MyLead24 Logo" title="MyLead24" />
                     </LinkListHeader>
                     <LinkList onClick={toggleMenu}>
-                        <MenuLink to="/">Startseite</MenuLink>
-                        <MenuLink to="/finanzen">Finanzen</MenuLink>
-                        <MenuLink to="/versicherungen">Versicherungen</MenuLink>
-                        <MenuLink to="/dsl">DSL</MenuLink>
-                        <MenuLink to="/strom-gas">Energie</MenuLink>
-                        <MenuLink to="/reisen">Reisen</MenuLink>
-                        <MenuLink to="/mietwagen">Mietwagen</MenuLink>
+                        <MenuLink to="/">Home</MenuLink>
+                        <MenuLink to="/finance">Finance</MenuLink>
+                        <MenuLink to="/insurances">Insurances</MenuLink>
+                        <MenuLink to="/internet">Internet</MenuLink>
+                        <MenuLink to="/electricity-gas">Electricity & gas</MenuLink>
+                        <MenuLink to="/travels">Travels</MenuLink>
+                        <MenuLink to="/rental-cars">Rental cars</MenuLink>
                     </LinkList>
                 </Navbar>
             </Menu>

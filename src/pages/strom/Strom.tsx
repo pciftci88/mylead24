@@ -11,8 +11,9 @@ export default function Strom(props: Props): ReactElement {
     return (
         <Content>
             <Helmet>
-                <title>Strom-Tarife</title>
-                <meta name="description" content="Finden Sie den passenden und günstigsten Stromtarif." />
+                <title>Eletricity rates</title>
+                <meta name="description" content="Find the right and cheapest electricity rate." />
+                <link rel="alternate" hrefLang="de" href="https://mylead24.de/strom-gas/strom" />
             </Helmet>
             {props.title && props.title}
             <WidgetInitializer

@@ -17,24 +17,25 @@ export default function Finance(props: Props): ReactElement {
     return (
         <>
             <Helmet>
-                <title>Finanzübersicht</title>
-                <meta name="description" content="Ihre Finanzen immer im Blick." />
+                <title>Finance overview</title>
+                <meta name="description" content="Always keep an eye on your finances." />
+                <link rel="alternate" hrefLang="de" href="https://mylead24.de/finanzen" />
             </Helmet>
             <Teaser>
                 {props.title && props.title}
             </Teaser>
             <LinkWrapper>
-                <ProductLink to='/finanzen/immobilien'>
+                <ProductLink to='/finance/property'>
                     <FontAwesomeIcon icon={faHouseUser} size='6x' color='orange' />
-                    <LinkText>Immobilien</LinkText>
+                    <LinkText>Property</LinkText>
                 </ProductLink>
-                <ProductLink to='/finanzen/baufinanzierung'>
+                <ProductLink to='/finance/mortgage-lending'>
                     <FontAwesomeIcon icon={faHandHoldingUsd} size='6x' color='orange' />
-                    <LinkText>Baufinanzierung</LinkText>
+                    <LinkText>Mortgage leding</LinkText>
                 </ProductLink>
-                <ProductLink to='/finanzen/kredite'>
+                <ProductLink to='/finance/loans'>
                     <FontAwesomeIcon icon={faCreditCard} size='6x' color='orange' />
-                    <LinkText>Kredite</LinkText>
+                    <LinkText>Loans</LinkText>
                 </ProductLink>
             </LinkWrapper>
         </>

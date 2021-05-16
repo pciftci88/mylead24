@@ -11,8 +11,9 @@ export default function Travel(props: Props): ReactElement {
     return (
         <>
             <Helmet>
-                <title>Reisen</title>
-                <meta name="description" content="Buchen Sie noch heute Ihren Traumurlaub." />
+                <title>Travels</title>
+                <meta name="description" content="Book your dream vacation today." />
+                <link rel="alternate" hrefLang="de" href="https://mylead24.de/reisen" />
             </Helmet>
             <Teaser>
                 {props.title && props.title}

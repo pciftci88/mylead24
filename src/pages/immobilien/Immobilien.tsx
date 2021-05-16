@@ -11,8 +11,9 @@ export default function Immobilien(props: Props): ReactElement {
     return (
         <Content>
             <Helmet>
-                <title>Immobilien - Finden Sie die passende Immobilie</title>
-                <meta name="description" content="Finden Sie noch heute Ihr Eigenheim." />
+                <title>Property - Find the right property</title>
+                <meta name="description" content="Find your home today." />
+                <link rel="alternate" hrefLang="de" href="https://mylead24.de/finanzen/immobilien" />
             </Helmet>
             {props.title && props.title}
             <WidgetInitializer id="tcpp-iframe-iv" scripts='https://form.partner-versicherung.de/widgets/109564/tcpp-iframe-iv/iv-iframe.js'></WidgetInitializer>

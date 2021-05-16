@@ -17,24 +17,25 @@ export default function Insurance(props: Props): ReactElement {
     return (
         <>
             <Helmet>
-                <title>Versicherungen Übersicht</title>
-                <meta name="description" content="Finden Sie die passende Versicherung." />
+                <title>Insurances overview</title>
+                <meta name="description" content="Find the right insurance." />
+                <link rel="alternate" hrefLang="de" href="https://mylead24.de/versicherungen" />
             </Helmet>
             <Teaser>
                 {props.title && props.title}
             </Teaser>
             <LinkWrapper>
-                <ProductLink to='/versicherungen/kfz-versicherung'>
+                <ProductLink to='/insurances/car-insurance'>
                     <FontAwesomeIcon icon={faCarCrash} size='6x' color='orange' />
                     <LinkText>Kfz-Versicherung</LinkText>
                 </ProductLink>
-                <ProductLink to='/versicherungen/motorrad-versicherung'>
+                <ProductLink to='/insurances/motorcycle-insurance'>
                     <FontAwesomeIcon icon={faMotorcycle} size='6x' color='orange' />
-                    <LinkText>Motorrad Versicherung</LinkText>
+                    <LinkText>Motorcycle insurance</LinkText>
                 </ProductLink>
-                <ProductLink to='/versicherungen/vorsorgeversicherung'>
+                <ProductLink to='/insurances/vorsorgeversicherung'>
                     <FontAwesomeIcon icon={faProcedures} size='6x' color='orange' />
-                    <LinkText>Vorsorgeversicherung</LinkText>
+                    <LinkText>Prevention insurance</LinkText>
                 </ProductLink>
             </LinkWrapper>
         </>

@@ -66,7 +66,7 @@ class App extends React.Component<propsTypes, stateTypes> {
       <React.Fragment>
         <Helmet>
           <title>MyLead24 - Verlgiechen und Sparen</title>
-          <meta name="description" content="MyLead24 - Verlgiechen und Sparen: Versicherungen, Kredite, Strom-, DSL-Tarife, Mietwagen, Reisen und Flüge." />
+          <meta name="description" content="MyLead24 - Compare and save: insurance, loans, electricity, internet, rental cars, travel and flights." />
         </Helmet>
         <Suspense fallback={<SuspenseLoader type="TailSpin" color="#16366F" height={100} width={100} />}>
           <BrowserRouter basename="/">
@@ -78,23 +78,23 @@ class App extends React.Component<propsTypes, stateTypes> {
             <Content>
               <Switch>
                 <Route exact path='/' component={Homepage} />
-                <Route exact path='/strom-gas' children={<Energy title={<Title>Strom & Gas Übersicht</Title>} />} />
-                <Route exact path='/strom-gas/strom' children={<Strom title={<Title>Strom-Tarife</Title>} />} />
-                <Route exact path='/strom-gas/oekostrom' children={<Oekostrom title={<Title>Ökostrom-Tarife</Title>} />} />
-                <Route exact path='/strom-gas/gas' children={<Gas title={<Title>Gas-Tarife</Title>} />} />
-                <Route exact path='/finanzen' children={<Finance title={<Title>Finanzübersicht</Title>} />} />
-                <Route exact path='/finanzen/immobilien' children={<Immobilien title={<Title>Immobilien</Title>} />} />
-                <Route exact path='/finanzen/baufinanzierung' children={<Baufinanzierung title={<Title>Baufinanzierung</Title>} />} />
-                <Route exact path='/finanzen/kredite' children={<Kredite title={<Title>Kredite</Title>} />} />
-                <Route exact path='/versicherungen' children={<Insurance title={<Title>Versicherungen</Title>} />} />
-                <Route exact path='/versicherungen/kfz-versicherung' children={<CarInsurance title={<Title>Kfz-Versicherung</Title>} />} />
-                <Route exact path='/versicherungen/motorrad-versicherung' children={<MotorcycleInsurancensurance title={<Title>Motorrad-Versicherung</Title>} />} />
-                <Route exact path='/versicherungen/vorsorgeversicherung' children={<PreventionInsurance title={<Title>Vorsorgeversicherung</Title>} />} />
-                <Route exact path='/dsl' children={<DSL title={<Title>DSL-Vergleich</Title>} />} />
-                <Route exact path='/reisen' children={<Travel title={<Title>Reisevergleich</Title>} />} />
-                <Route exact path='/mietwagen' children={<RentalCar title={<Title>Mietwagen</Title>} />} />
-                <Route exact path='/impressum' component={Impressum} />
-                <Route exact path='/datenschutz' component={Datenschutz} />
+                <Route exact path='/electricity-gas' children={<Energy title={<Title>Electricity & gas overview</Title>} />} />
+                <Route exact path='/electricity-gas/electricity' children={<Strom title={<Title>Electricity rates</Title>} />} />
+                <Route exact path='/electricity-gas/eco-electricity' children={<Oekostrom title={<Title>Eco electricity rates</Title>} />} />
+                <Route exact path='/electricity-gas/gas' children={<Gas title={<Title>Gas rates</Title>} />} />
+                <Route exact path='/finance' children={<Finance title={<Title>Finance overview</Title>} />} />
+                <Route exact path='/finance/property' children={<Immobilien title={<Title>Property</Title>} />} />
+                <Route exact path='/finance/mortgage-lending' children={<Baufinanzierung title={<Title>Mortgage lending</Title>} />} />
+                <Route exact path='/finance/loans' children={<Kredite title={<Title>Loans</Title>} />} />
+                <Route exact path='/insurances' children={<Insurance title={<Title>Insurances</Title>} />} />
+                <Route exact path='/insurances/car-insurance' children={<CarInsurance title={<Title>Car insurance</Title>} />} />
+                <Route exact path='/insurances/motorcycle-insurance' children={<MotorcycleInsurancensurance title={<Title>Motorcycle insurance</Title>} />} />
+                <Route exact path='/insurances/prevention-insurance' children={<PreventionInsurance title={<Title>Prevention insurance</Title>} />} />
+                <Route exact path='/internet' children={<DSL title={<Title>Internet comparison</Title>} />} />
+                <Route exact path='/travels' children={<Travel title={<Title>Travels comparison</Title>} />} />
+                <Route exact path='/rental-car' children={<RentalCar title={<Title>Rental cars</Title>} />} />
+                <Route exact path='/imprint' component={Impressum} />
+                <Route exact path='/privacy' component={Datenschutz} />
               </Switch>
             </Content>
             <Footer />

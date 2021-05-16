@@ -8,14 +8,14 @@ export default function Footer(): ReactElement {
         <Wrapper>
             <FooterLinkList>
                 <FooterLink>
-                    <Link to='/impressum'>Impressum</Link>
+                    <Link to='/imprint'>Imprint</Link>
                 </FooterLink>
                 <FooterLink>
-                    <Link to='/datenschutz'>Datenschutz</Link>
+                    <Link to='/privacy'>Privacy</Link>
                 </FooterLink>
             </FooterLinkList>
-            <Hint>Wir verwenden auf unserer Webseite optimierte Vergleichsrechner von Tarifcheck, Check24 und Finanzcheck um Ihnen die besten Angebote anzeigen zu können. Wir sind keine Versicherungsmakler.</Hint>
-            <Copyright>© {copyrightYear} MyLead24. Alle Inhalte unterliegen unserem Copyright.</Copyright>
+            <Hint>We use optimized comparison calculators from Tarifcheck, Check24 and Finanzcheck on our website to be able to show you the best offers. We are not insurance brokers.</Hint>
+            <Copyright>© {copyrightYear} MyLead24. All rights reserved.</Copyright>
         </Wrapper>
     )
 }

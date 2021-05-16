@@ -11,8 +11,9 @@ export default function Gas(props: Props): ReactElement {
     return (
         <Content>
             <Helmet>
-                <title>Gas-Tarife</title>
-                <meta name="description" content="Holen Sie sich den besten Gas Tarif für Ihr zu Hause." />
+                <title>Gas rates</title>
+                <meta name="description" content="Get the best gas rate for your home." />
+                <link rel="alternate" hrefLang="de" href="https://mylead24.de/strom-gas/gas" />
             </Helmet>
             {props.title && props.title}
             <WidgetInitializer

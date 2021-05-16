@@ -14,6 +14,7 @@ export default function Datenschutz(): ReactElement {
             <Helmet>
                 <title>Datenschutz</title>
                 <meta name="description" content="Alles rund um den Datenschutz." />
+                <link rel="alternate" hrefLang="de" href="https://mylead24.de/datenschutz" />
             </Helmet>
             <Title>Datenschutzerklärung</Title>
             <Section>

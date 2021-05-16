@@ -13,13 +13,13 @@ function Header() {
                 </Link>
                 <Menu>
                     <MenuList>
-                        <MenuItems><MenuLink to="/">Startseite</MenuLink></MenuItems>
-                        <MenuItems><MenuLink to="/finanzen">Finanzen</MenuLink></MenuItems>
-                        <MenuItems><MenuLink to="/versicherungen">Versicherungen</MenuLink></MenuItems>
-                        <MenuItems><MenuLink to="/dsl">DSL</MenuLink></MenuItems>
-                        <MenuItems><MenuLink to="/strom-gas">Energie</MenuLink></MenuItems>
-                        <MenuItems><MenuLink to="/reisen">Reisen</MenuLink></MenuItems>
-                        <MenuItems><MenuLink to="/mietwagen">Mietwagen</MenuLink></MenuItems>
+                        <MenuItems><MenuLink to="/">Home</MenuLink></MenuItems>
+                        <MenuItems><MenuLink to="/finance">Finance</MenuLink></MenuItems>
+                        <MenuItems><MenuLink to="/insurances">Insurances</MenuLink></MenuItems>
+                        <MenuItems><MenuLink to="/internet">Internet</MenuLink></MenuItems>
+                        <MenuItems><MenuLink to="/energy-gas">Energy</MenuLink></MenuItems>
+                        <MenuItems><MenuLink to="/travels">Travels</MenuLink></MenuItems>
+                        <MenuItems><MenuLink to="/rental-car">Rental car</MenuLink></MenuItems>
                     </MenuList>
                 </Menu>
             </InnerWrapper>

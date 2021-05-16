@@ -10,8 +10,9 @@ export default function RentalCar(props: Props): ReactElement {
     return (
         <>
             <Helmet>
-                <title>Mietwagen</title>
-                <meta name="description" content="Mieten Sie sich noch heute Ihr Traumauto." />
+                <title>Rental car</title>
+                <meta name="description" content="Rent your dream car today." />
+                <link rel="alternate" hrefLang="de" href="https://mylead24.de/mietwagen" />
             </Helmet>
             <Teaser>
                 {props.title && props.title}

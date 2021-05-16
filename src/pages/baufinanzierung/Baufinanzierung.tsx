@@ -11,8 +11,9 @@ export default function Baufinanzierung(props: Props): ReactElement {
     return (
         <Content>
             <Helmet>
-                <title>Baufinanzierung - Die passende Finanzierung für das Eigenheim finden</title>
-                <meta name="description" content="Finden Sie noch heute die richtige Finanzierung zu Ihrem Eigenheim." />
+                <title>Mortgage lending - Find the right financing for your own home</title>
+                <meta name="description" content="Find the right financing for your home today." />
+                <link rel="alternate" hrefLang="de" href="https://mylead24.de/finanzen/baufinanzierung" />
             </Helmet>
             {props.title && props.title}
             <WidgetInitializer id="tcpp-iframe-baufi" scripts='https://form.partner-versicherung.de/widgets/109564/tcpp-iframe-baufi/baufi-iframe.js' />

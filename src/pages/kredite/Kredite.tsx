@@ -11,8 +11,9 @@ export default function Kredite(props: Props): ReactElement {
     return (
         <Content>
             <Helmet>
-                <title>Kredite</title>
-                <meta name="description" content="Holen Sie sich den Kredit mit den günstigsten Zinsen." />
+                <title>Loans</title>
+                <meta name="description" content="Get the loan with the cheapest interest rates." />
+                <link rel="alternate" hrefLang="de" href="https://mylead24.de/finanzen/kredite" />
             </Helmet>
             {props.title && props.title}
             <WidgetInitializer

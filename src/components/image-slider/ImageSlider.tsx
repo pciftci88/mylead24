@@ -29,45 +29,44 @@ function ImageSlider() {
                 <div>
                     <picture>
                         <source media="(max-width:960px)" srcSet={slideTravelMob} />
-                        <img src={slideTravel} alt="Finde die günstigsten Reisen und Hotels" title="Reise-Vergleich" />
+                        <img src={slideTravel} alt="Find the cheapest trips and hotels" title="Travels comparison" />
                     </picture>
-                    <Legend href="/reisen">Zum Reise-Vergleich</Legend>
-
+                    <Legend href="/travels">To travel comparison</Legend>
                 </div>
                 <div>
                     <picture>
                         <source media="(max-width:960px)" srcSet={slideFinanceMob} />
-                        <img src={slideFinance} alt="Ob Kreditkarte, Girokonto oder Kredit - hier finden Sie die besten Angebote" title="Finanz-Vergleich" />
+                        <img src={slideFinance} alt="Find the cheapest credit for your use" title="Finance comparison" />
                     </picture>
-                    <Legend href="/finanzen">Zum Finanz-Vergleich</Legend>
+                    <Legend href="/finance">To finance comparison</Legend>
                 </div>
                 <div>
                     <picture>
                         <source media="(max-width:960px)" srcSet={slideInternetMob} />
-                        <img src={slideInternet} alt="Immer die schnellste und günstigste Verbindung im Haus mit dem DSL-Vergleich" title="DSL-Vergleich" />
+                        <img src={slideInternet} alt="Always the fastest and cheapest connection in your home with the internet comparison" title="Internet comparison" />
                     </picture>
-                    <Legend href="/dsl">Zum DSL-Vergleich</Legend>
+                    <Legend href="/internet">To internet comparison</Legend>
                 </div>
                 <div>
                     <picture>
                         <source media="(max-width:960px)" srcSet={slideInsuranceMob} />
-                        <img src={slideInsurance} alt="Die beste Versicherung für Ihre Vorsorge finden" title="Versicherungs-Vergleich" />
+                        <img src={slideInsurance} alt="Find the best insurance for your pension" title="Insurance comparison" />
                     </picture>
-                    <Legend href="/versicherungen">Zum Versicherungs-Vergleich</Legend>
+                    <Legend href="/insurances">To insurance comparison</Legend>
                 </div>
                 <div>
                     <picture>
                         <source media="(max-width:960px)" srcSet={slidePowerMob} />
-                        <img src={slidePower} alt="Ihr zu Hause immer rundum versorgt" title="Strom- und Gasvergleich" />
+                        <img src={slidePower} alt="Your home is always fully supplied with electricity and gas" title="Electricity & gas" />
                     </picture>
-                    <Legend href="/strom-gas">Zum Strom- und Gasvergleich</Legend>
+                    <Legend href="/electricity-gas">To energy & gas comparison</Legend>
                 </div>
                 <div>
                     <picture>
                         <source media="(max-width:960px)" srcSet={slideRentalCarMob} />
-                        <img src={slideRentalCar} alt="Miete dir noch heute dein Traumauto zum besten Preis" title="Mietwagen Vergleich" />
+                        <img src={slideRentalCar} alt="Rent your dream car today at the best price" title="Rental car comparison" />
                     </picture>
-                    <Legend href="/mietwagen">Zum Mietwagen-Vergleich</Legend>
+                    <Legend href="/rental-car">To rental car comparison</Legend>
                 </div>
             </Carousel>
         </Content>

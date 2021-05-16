@@ -11,8 +11,9 @@ export default function Oekostrom(props: Props): ReactElement {
     return (
         <Content>
             <Helmet>
-                <title>Ökostrom-Tarife</title>
-                <meta name="description" content="Finden Sie den passenden und günstigsten Ökostromtarif." />
+                <title>Eco electricity rates</title>
+                <meta name="description" content="Find the right and cheapest eco electricity rate." />
+                <link rel="alternate" hrefLang="de" href="https://mylead24.de/strom-gas/oekostrom" />
             </Helmet>
             {props.title && props.title}
             <WidgetInitializer
