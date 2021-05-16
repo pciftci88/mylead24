@@ -56,6 +56,7 @@ module.exports = {
         extensions: ['.js', '.jsx', '.ts', '.tsx']
     },
     output: {
+        publicPath: '/',
         filename: 'bundle.js'
     }
 };
