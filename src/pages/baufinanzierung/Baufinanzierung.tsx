@@ -11,7 +11,7 @@ export default function Baufinanzierung(props: Props): ReactElement {
     return (
         <Content>
             <Helmet>
-                <title>Baufinanzierung - Die passende Finanzierung für das Eigenheim finden</title>
+                <title>Baufinanzierung - Die passende Finanzierung für das Eigenheim finden | MyLead24</title>
                 <meta name="description" content="Finden Sie noch heute die richtige Finanzierung zu Ihrem Eigenheim." />
             </Helmet>
             {props.title && props.title}

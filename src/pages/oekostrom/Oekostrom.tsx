@@ -11,7 +11,7 @@ export default function Oekostrom(props: Props): ReactElement {
     return (
         <Content>
             <Helmet>
-                <title>Ökostrom-Tarife</title>
+                <title>Ökostrom-Tarife | MyLead24</title>
                 <meta name="description" content="Finden Sie den passenden und günstigsten Ökostromtarif." />
             </Helmet>
             {props.title && props.title}

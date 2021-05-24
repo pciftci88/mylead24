@@ -11,7 +11,7 @@ export default function PreventionInsurance(props: Props): ReactElement {
     return (
         <Content>
             <Helmet>
-                <title>Vorsorgeversicherung</title>
+                <title>Vorsorgeversicherung | MyLead24</title>
                 <meta name="description" content="Sichern Sie sich bestens für das Alter ab." />
             </Helmet>
             {props.title && props.title}

@@ -12,7 +12,7 @@ export default function Datenschutz(): ReactElement {
     return (
         <Wrapper>
             <Helmet>
-                <title>Datenschutz</title>
+                <title>Datenschutz | MyLead24</title>
                 <meta name="description" content="Alles rund um den Datenschutz." />
             </Helmet>
             <Title>Datenschutzerklärung</Title>

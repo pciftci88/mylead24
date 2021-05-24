@@ -10,7 +10,7 @@ export default function RentalCar(props: Props): ReactElement {
     return (
         <>
             <Helmet>
-                <title>Mietwagen</title>
+                <title>Mietwagen | MyLead24</title>
                 <meta name="description" content="Mieten Sie sich noch heute Ihr Traumauto." />
             </Helmet>
             <Teaser>

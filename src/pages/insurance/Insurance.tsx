@@ -17,7 +17,7 @@ export default function Insurance(props: Props): ReactElement {
     return (
         <>
             <Helmet>
-                <title>Versicherungen Übersicht</title>
+                <title>Versicherungen Übersicht | MyLead24</title>
                 <meta name="description" content="Finden Sie die passende Versicherung." />
             </Helmet>
             <Teaser>

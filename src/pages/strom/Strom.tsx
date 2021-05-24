@@ -11,7 +11,7 @@ export default function Strom(props: Props): ReactElement {
     return (
         <Content>
             <Helmet>
-                <title>Strom-Tarife</title>
+                <title>Strom-Tarife | MyLead24</title>
                 <meta name="description" content="Finden Sie den passenden und günstigsten Stromtarif." />
             </Helmet>
             {props.title && props.title}

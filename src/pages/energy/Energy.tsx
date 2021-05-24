@@ -17,7 +17,7 @@ export default function Energy(props: Props): ReactElement {
     return (
         <>
             <Helmet>
-                <title>Strom- und Gasübersicht</title>
+                <title>Strom- und Gasübersicht | MyLead24</title>
                 <meta name="description" content="Ihr zu Hause immer rundum versorgt mit Strom und Gas." />
             </Helmet>
             <Teaser>

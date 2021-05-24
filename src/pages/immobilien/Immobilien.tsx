@@ -11,7 +11,7 @@ export default function Immobilien(props: Props): ReactElement {
     return (
         <Content>
             <Helmet>
-                <title>Immobilien - Finden Sie die passende Immobilie</title>
+                <title>Immobilien - Finden Sie die passende Immobilie | MyLead24</title>
                 <meta name="description" content="Finden Sie noch heute Ihr Eigenheim." />
             </Helmet>
             {props.title && props.title}

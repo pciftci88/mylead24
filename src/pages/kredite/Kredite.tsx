@@ -11,7 +11,7 @@ export default function Kredite(props: Props): ReactElement {
     return (
         <Content>
             <Helmet>
-                <title>Kredite</title>
+                <title>Kredite | MyLead24</title>
                 <meta name="description" content="Holen Sie sich den Kredit mit den günstigsten Zinsen." />
             </Helmet>
             {props.title && props.title}

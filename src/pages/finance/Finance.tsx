@@ -17,7 +17,7 @@ export default function Finance(props: Props): ReactElement {
     return (
         <>
             <Helmet>
-                <title>Finanzübersicht</title>
+                <title>Finanzübersicht | MyLead24</title>
                 <meta name="description" content="Ihre Finanzen immer im Blick." />
             </Helmet>
             <Teaser>

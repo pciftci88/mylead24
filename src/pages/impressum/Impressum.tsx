@@ -14,7 +14,7 @@ class Impressum extends Component {
         return (
             <Wrapper>
                 <Helmet>
-                    <title>Impressum</title>
+                    <title>Impressum | MyLead24</title>
                     <meta name="description" content="Unser Impressum." />
                 </Helmet>
                 <Title>Impressum</Title>

@@ -11,7 +11,7 @@ export default function CarInsurance(props: Props): ReactElement {
     return (
         <Content>
             <Helmet>
-                <title>Kfz-Versicherung</title>
+                <title>Kfz-Versicherung | MyLead24</title>
                 <meta name="description" content="Finden Sie die beste und günstigste Versicherung für Ihr Auto." />
             </Helmet>
             {props.title && props.title}

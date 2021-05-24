@@ -11,7 +11,7 @@ export default function MotorcycleInsurance(props: Props): ReactElement {
     return (
         <Content>
             <Helmet>
-                <title>Motorrad-Versicherung</title>
+                <title>Motorrad-Versicherung | MyLead24</title>
                 <meta name="description" content="Finden Sie die beste und günstigste Versicherung für Ihr Motorrad." />
             </Helmet>
             {props.title && props.title}
