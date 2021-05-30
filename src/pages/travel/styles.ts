@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components/macro';
 import TravelOverviewImage from '../../images/teaser/travel-teaser.jpg';
 import { TitleWrapper } from '../../global/pageStyles';
 

@@ -14,7 +14,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen',
+  font-family: 'Quicksand', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   font-size: 62.5%;
@@ -27,6 +27,11 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
 }
 
 cite {
@@ -45,6 +50,11 @@ p {
   font-size: 1.3rem;
   line-height: 1.4;
 } 
+
+ul {
+  list-style: none;
+  padding: 0;
+}
 
 iframe {
   width: 100%;

@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components/macro';
 import DslOverviewImage from '../../images/teaser/dsl-teaser.jpg';
 import { TitleWrapper } from '../../global/pageStyles';
 

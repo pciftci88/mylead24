@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components/macro';
 import RentalCarTeaser from '../../images/teaser/rentalcar-teaser.jpg';
 import RentalCarTeaserMob from '../../images/teaser/rentalcar-teaser-mob.jpg';
 import { TitleWrapper } from '../../global/pageStyles';

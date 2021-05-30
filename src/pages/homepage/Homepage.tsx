@@ -7,6 +7,7 @@ import {
     TravelWidget
 } from './styles';
 import ImageSlider from '../../components/image-slider/ImageSlider';
+import Overview from '../../components/overview/Overview';
 import { appendScript } from '../../utils/appendScript';
 
 import '../../css/gas.css';
@@ -44,6 +45,7 @@ class Homepage extends React.Component<Props, State> {
         return (
             <>
                 <ImageSlider />
+                <Overview />
                 <>
                     <Product bgImage={HouseBg}>
                         <ProductTitle>Strom & Gas</ProductTitle>

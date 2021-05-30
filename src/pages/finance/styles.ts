@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components/macro';
 import FinanceOverviewImage from '../../images/teaser/finance-teaser.jpg';
 import { TitleWrapper } from '../../global/pageStyles';
 

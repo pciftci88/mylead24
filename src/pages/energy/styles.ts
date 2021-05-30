@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components/macro';
 import EnergyOverviewImage from '../../images/teaser/energy-teaser.jpg';
 import { TitleWrapper } from '../../global/pageStyles';
 
