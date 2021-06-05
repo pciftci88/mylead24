@@ -1,6 +1,6 @@
 {
   "name": "mylead24",
-  "homepage": "https://mylead24.de",
+  "homepage": "./",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
