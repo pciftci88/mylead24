@@ -1,6 +1,6 @@
 {
   "name": "mylead24",
-  "homepage": "https://mylead24.de",
+  "homepage": "./",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,6 +13,7 @@
     "@testing-library/user-event": "^12.1.10",
     "@types/react-router-dom": "^5.1.7",
     "framer-motion": "^4.0.3",
+    "gh-pages": "^3.2.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
@@ -30,7 +31,9 @@
     "build": "react-scripts build tsc",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "watch": "webpack serve --progress"
+    "watch": "webpack serve --progress",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
