@@ -18,7 +18,7 @@ export const Icon = styled(FontAwesomeIcon)`
 
 export const Wrapper = styled.section`
     display: flex;
-    background-color: #465b95;
+    background-color: #954646;
     color: #fff;
     padding: 2em 0;
     width: 100%;

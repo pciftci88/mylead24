@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { StickyHeader } from '../../global/pageStyles';
 
 export const Wrapper = styled.header`
-    background-color: #16366F;
+    background-color: #6f1616;
     ${StickyHeader};
 `;
 

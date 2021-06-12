@@ -14,10 +14,10 @@ function Header() {
                 <Menu>
                     <MenuList>
                         <MenuItems><MenuLink to="/">Startseite</MenuLink></MenuItems>
-                        <MenuItems><MenuLink to="/finanzen">Finanzen</MenuLink></MenuItems>
                         <MenuItems><MenuLink to="/versicherungen">Versicherungen</MenuLink></MenuItems>
+                        <MenuItems><MenuLink to="/finanzen">Finanzen</MenuLink></MenuItems>
+                        <MenuItems><MenuLink to="/strom-gas">Strom & Gas</MenuLink></MenuItems>
                         <MenuItems><MenuLink to="/dsl">DSL</MenuLink></MenuItems>
-                        <MenuItems><MenuLink to="/strom-gas">Energie</MenuLink></MenuItems>
                         <MenuItems><MenuLink to="/reisen">Reisen</MenuLink></MenuItems>
                         <MenuItems><MenuLink to="/mietwagen">Mietwagen</MenuLink></MenuItems>
                     </MenuList>

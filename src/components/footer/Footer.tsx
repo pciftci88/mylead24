@@ -14,7 +14,7 @@ export default function Footer(): ReactElement {
                     <Link to='/datenschutz'>Datenschutz</Link>
                 </FooterLink>
             </FooterLinkList>
-            <Hint>Wir verwenden auf unserer Webseite optimierte Vergleichsrechner von Tarifcheck, Check24 und Finanzcheck um Ihnen die besten Angebote anzeigen zu können. Wir sind keine Versicherungsmakler.</Hint>
+            <Hint>Wir verwenden auf unserer Webseite optimierte Vergleichsrechner von Tarifcheck und Check24 um Ihnen die besten Angebote anzeigen zu können. Wir sind keine Versicherungsmakler.</Hint>
             <Copyright>© {copyrightYear} MyLead24. Alle Inhalte unterliegen unserem Copyright.</Copyright>
         </Wrapper>
     )

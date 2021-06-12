@@ -51,7 +51,7 @@ class Impressum extends Component {
                     </p>
                 </Section>
                 <Section>
-                    <Hint><strong>Hinweis:</strong> Wir nehmen am Partnerprogramm von Finanzcheck, Tarifcheck & Check24 teil und erhalten bei einer erfolgreichen Vermittlung eine Provision. Sie haben dadurch keinen Nachteil und zahlen auch nicht mehr dafür.</Hint>
+                    <Hint><strong>Hinweis:</strong> Wir nehmen am Partnerprogramm von Tarifcheck & Check24 teil und erhalten bei einer erfolgreichen Vermittlung eine Provision. Sie haben dadurch keinen Nachteil und zahlen auch nicht mehr dafür.</Hint>
                 </Section>
             </Wrapper>
         )

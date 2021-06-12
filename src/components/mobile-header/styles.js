@@ -5,7 +5,7 @@ import { StickyHeader } from '../../global/pageStyles';
 export const Wrapper = styled.header`
     display: flex;
     align-items: center;
-    background-color: #16366F;
+    background-color: #6f1616;
     height: 60px;
     ${StickyHeader};
 `;

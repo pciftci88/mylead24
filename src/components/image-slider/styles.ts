@@ -11,7 +11,7 @@ export const Legend = styled.a`
     right: 0;
     margin: 0 auto;
     max-width: 320px;
-    background-color: #16366F;
+    background-color: #6f1616;
     padding: 10px;
     border-radius: 3px;
     text-decoration: none;
@@ -20,7 +20,7 @@ export const Legend = styled.a`
     font-size: 1.2rem;
 
     &:hover {
-        background-color: #173d82;
+        background-color: #901e1e;
     }
 
     @media (max-width: 1020px) {

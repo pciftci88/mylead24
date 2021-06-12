@@ -38,10 +38,10 @@ function MobileHeader() {
                     </LinkListHeader>
                     <LinkList onClick={toggleMenu}>
                         <MenuLink to="/">Startseite</MenuLink>
-                        <MenuLink to="/finanzen">Finanzen</MenuLink>
                         <MenuLink to="/versicherungen">Versicherungen</MenuLink>
+                        <MenuLink to="/finanzen">Finanzen</MenuLink>
+                        <MenuLink to="/strom-gas">Strom & Gas</MenuLink>
                         <MenuLink to="/dsl">DSL</MenuLink>
-                        <MenuLink to="/strom-gas">Energie</MenuLink>
                         <MenuLink to="/reisen">Reisen</MenuLink>
                         <MenuLink to="/mietwagen">Mietwagen</MenuLink>
                     </LinkList>
